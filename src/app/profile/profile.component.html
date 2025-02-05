@@ -14,6 +14,8 @@
             <input type="text"[(ngModel)]="user.email" name="email">
             <label>Nombre de Usuario:</label>
             <input type="text"[(ngModel)]="user.username" name="username">
+            <label>Pasatiempo:</label>
+            <input type="text"[(ngModel)]="user.pasatiempo" name="pasatiempo">
         </form>
     </div>
 </div>
@@ -27,6 +29,7 @@
                     <th>Apellido Paterno</th>
                     <th>Correo</th>
                     <th>Usuario</th>
+                    <th>Pasatiempo</th>
                     <th>Imagen</th>
                 </tr>
             </thead>
@@ -36,6 +39,7 @@
                     <td>{{ user.lastName }}</td>
                     <td>{{ user.email }}</td>
                     <td>{{ user.username }}</td>
+                    <td>{{ user.pasatiempo }}</td>
                     <td><img src="{{ user.imageUrl }}" alt=""></td>
                 </tr>
             </tbody>

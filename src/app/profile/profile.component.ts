@@ -14,6 +14,7 @@ export class ProfileComponent {
   lastName: "Mora",
   email: "luisedumr@hotmail.com",
   username: "lu.mora9916",
+  pasatiempo: "Billar",
   imageUrl: "/chico.jpg",
   };
 
